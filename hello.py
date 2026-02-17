@@ -1,7 +1,7 @@
 # relationship
 def relationship(): 
     name=input("\nenter your name:")
-    k="married"
+    a="married"
     b="mingle"
     c="single"
     d="i am not interested in love life"
@@ -26,6 +26,7 @@ def relationship():
         else:
             print(name,"❌ Invalid choice! Please select only (a, b, c, d).")
 relationship()
+
 
 
 
