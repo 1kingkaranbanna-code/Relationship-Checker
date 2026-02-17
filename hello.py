@@ -20,8 +20,12 @@ def relationship():
         elif(relationship_status=="d"):
             print(name,"Full focus on goals. Respect!")
             break
+        elif(relationship_status=="e"):
+            print(name,"Wake up to reality.\nNothing ever goes as planned in this accursed world.\nThe longer you live, the more you realize that only pain, suffering, and futility exist")
+            break
         else:
             print(name,"❌ Invalid choice! Please select only (a, b, c, d).")
 relationship()
+
 
 
