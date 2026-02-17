@@ -5,6 +5,7 @@ def relationship():
     b="mingle"
     c="single"
     d="i am not interested in love life"
+    e="single but i have a crush,one side love"
     while True:
         relationship_status=input("\nchoose your relationship status:\n(a)merried\n(b)mingle\n(c)single\n(d)i am not intrested in love life\nyour ans=",)
         if(relationship_status=="a"):
@@ -22,3 +23,4 @@ def relationship():
         else:
             print(name,"❌ Invalid choice! Please select only (a, b, c, d).")
 relationship()
+
